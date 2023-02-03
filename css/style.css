@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-cyan: hsl(185, 75%, 39%);
     --very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --dark-grayish-blue: hsl(227, 10%, 46%);
@@ -6,14 +6,14 @@
     --white: hsl(0, 0%, 100%);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh ;
+body {
+    height: 100vh;
     background-color: var(--dark-cyan);
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
@@ -23,67 +23,67 @@ body{
     align-items: center;
 }
 
-h1{
+h1 {
     color: var(--dark-grayish-blue);
     font-size: 1.25rem;
     padding: 0.5rem;
 }
 
-h2{
+h2 {
     color: var(--very-dark-desaturated-blue);
     font-size: 1.1rem;
 }
 
-p{
+p {
     color: var(--dark-grayish-blue);
     font-size: 0.9rem;
 }
 
-strong{
+strong {
     color: var(--very-dark-desaturated-blue);
 }
 
-.card{
+.card {
     font-family: 'Kumbh Sans', sans-serif;
     max-width: 21.82rem;
-    background-color:var(--white);
+    background-color: var(--white);
     border-radius: .6rem;
     text-align: center;
 }
 
-.image-card img{
-    border-radius: .6rem .6rem 0 0 ;
+.image-card img {
+    border-radius: .6rem .6rem 0 0;
 }
 
-.image-text img{
+.image-text img {
     border-radius: 50%;
     border: 0.3rem solid var(--white);
     margin-top: -3.1rem;
 }
 
-.text{
+.text {
     margin: 1.5rem 0;
 }
 
 
-.bottom{
+.bottom {
     display: flex;
     justify-content: space-around;
     padding: 1.5rem;
     border-top: 0.06rem solid var(--dark-gray)
 }
 
-.information p{
+.information p {
     font-size: 0.75rem;
 }
 
 @media screen and (max-width: 375px) {
 
-    .card{
+    .card {
         max-width: 18.75rem;
     }
 
-    .image-card img{
+    .image-card img {
         width: 100%;
     }
 }
